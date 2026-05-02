@@ -1,0 +1,17 @@
+name: OPSummerArmor
+version: 1.0.0
+main: com.opsummer.armor.OPSummerArmor
+api-version: '1.21'
+author: OPSummer
+description: Adds the OP Summer custom armor set with full enchantments and attribute bonuses.
+
+commands:
+  givesummer:
+    description: Give OP Summer armor pieces
+    usage: /givesummer <helmet|chestplate|leggings|boots|all> [player]
+    permission: opsummer.give
+
+permissions:
+  opsummer.give:
+    description: Allows giving OP Summer armor
+    default: op
