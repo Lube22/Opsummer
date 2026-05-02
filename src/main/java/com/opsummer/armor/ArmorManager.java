@@ -117,7 +117,7 @@ public class ArmorManager {
         // Each modifier needs a unique NamespacedKey
 
         // +0.01 Speed
-        meta.addAttributeModifier(Attribute.MOVEMENT_SPEED,
+        meta.addAttributeModifier(Attribute.GENERIC_MOVEMENT_SPEED,
             new AttributeModifier(
                 new NamespacedKey(plugin, "summer_speed_" + slot.toString()),
                 0.01,
@@ -126,7 +126,7 @@ public class ArmorManager {
             ));
 
         // +2 Armor
-        meta.addAttributeModifier(Attribute.ARMOR,
+        meta.addAttributeModifier(Attribute.GENERIC_ARMOR,
             new AttributeModifier(
                 new NamespacedKey(plugin, "summer_armor_" + slot.toString()),
                 2.0,
@@ -135,7 +135,7 @@ public class ArmorManager {
             ));
 
         // +5 Attack Damage
-        meta.addAttributeModifier(Attribute.ATTACK_DAMAGE,
+        meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE
             new AttributeModifier(
                 new NamespacedKey(plugin, "summer_damage_" + slot.toString()),
                 5.0,
@@ -144,7 +144,7 @@ public class ArmorManager {
             ));
 
         // +5 Max Health
-        meta.addAttributeModifier(Attribute.MAX_HEALTH,
+        meta.addAttributeModifier(Attribute.GENERIC_MAX_HEALTH
             new AttributeModifier(
                 new NamespacedKey(plugin, "summer_health_" + slot.toString()),
                 5.0,
@@ -153,7 +153,7 @@ public class ArmorManager {
             ));
 
         // +1.5 Explosion Knockback Resistance (applied in ANY slot so it works when worn)
-        meta.addAttributeModifier(Attribute.EXPLOSION_KNOCKBACK_RESISTANCE,
+        meta.addAttributeModifier(Attribute.GENERIC_KNOCKBACK_RESISTANCE
             new AttributeModifier(
                 new NamespacedKey(plugin, "summer_ekr_" + slot.toString()),
                 1.5,
